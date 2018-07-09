@@ -95,7 +95,7 @@ class CryptocompareApi
             "sign" => $sign,
         );
         $equipment = $this->getRequest("public","/data/v2/news/", $params);
-        return $equipment;
+        return $equipment->Data;
     }
 
     /**
